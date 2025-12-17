@@ -1,0 +1,18 @@
+{
+  "name": "kabaw-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:ws\"",
+    "dev:client": "npm --prefix kabaw-chat-web run dev",
+    "dev:ws": "cd kabaw-sockets && go run main.go"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
