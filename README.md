@@ -119,10 +119,7 @@ Each folder contains its own README for deeper details.
 **Copy & paste to install all dependencies and start the app:**
 
 ```bash
-npm install \
-&& cd kabaw-chat-web && npm install && cd .. \
-&& cd kabaw-sockets && go mod tidy && cd .. \
-&& npm run dev
+npm install && cd kabaw-chat-web && npm install && cd .. && cd kabaw-sockets && go mod tidy && cd .. && npm run dev
 ```
 
 ---
