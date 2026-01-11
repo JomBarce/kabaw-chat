@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:ws\"",
     "dev:client": "npm --prefix kabaw-chat-web run dev",
-    "dev:ws": "cd kabaw-sockets && go run main.go"
+    "dev:ws": "cd kabaw-sockets && go run main.go",
+    "dev:terminal": "cd kabaw-chat-terminal && cargo run"
   },
   "keywords": [],
   "author": "",
